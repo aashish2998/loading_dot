@@ -1,0 +1,38 @@
+body{
+  background-color:rgb(192, 23, 40) ;
+ 
+}
+
+.loader{
+ 
+
+  display:inline-flex;
+  align-items:center;
+  column-gap:5px;
+  background-color: rgb(113, 15, 198);
+  transform:translate(400px,250px);
+  
+ 
+  
+
+  
+}
+.load_icon{
+  display:inline-block;
+  width:20px;
+  height:20px;
+  opacity:0.5;
+  background-color:#0b4666;
+  border-radius:10px;
+  animation: scale-up 1000ms var(--d) linear infinite;
+}
+
+@keyframes scale-up{
+  25%{
+    opacity: 1;
+    scale: 1.5;
+  }
+  50%{
+    scale: 1;
+  }
+}
